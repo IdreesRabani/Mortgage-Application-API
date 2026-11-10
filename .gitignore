@@ -1,0 +1,53 @@
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Test outputs
+TestResults/
+**/TestResults/
+*.trx
+coverage/
+coverage.cobertura.xml
+
+# Development configuration and secrets
+appsettings.Development.json
+**/appsettings.Development.json
+appsettings.*.local.json
+**/appsettings.*.local.json
+.env
+.env.*
+**/.env
+**/.env.*
+secrets.json
+**/secrets.json
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Docker overrides
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# ZIP files
+*.zip

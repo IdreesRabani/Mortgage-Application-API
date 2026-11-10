@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="MortgageApplication.IntegrationTests/MortgageApplications.IntegrationTests.csproj" />
+    <Project Path="MortgageApplication.UnitTests/MortgageApplications.UnitTests.csproj" />
+  </Folder>
+  <Project Path="Mortgage Application API/Mortgage Application API.csproj" />
+</Solution>

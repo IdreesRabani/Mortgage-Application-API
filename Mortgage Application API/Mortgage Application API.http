@@ -1,0 +1,6 @@
+@Mortage_Application_API_HostAddress = http://localhost:5002
+
+GET {{Mortage_Application_API_HostAddress}}/MortgageApplication/
+Accept: application/json
+
+###
